@@ -15,7 +15,7 @@ This repository contains code and steps neccesary to reproduce a list of common 
 ### Install required dependencies
 
 ```console
-tag@host$ git clone https://github.com/TAG-repo/grantform-similarity.git
-tag@host$ cd grantform-similarity
-tag@host$ python3 -m virtualenv venv && venv/bin/pip install -r requirements.txt 
+git clone https://github.com/TAG-repo/grantform-similarity.git
+cd grantform-similarity
+python3 -m virtualenv venv && venv/bin/pip install -r requirements.txt 
 ```
