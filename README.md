@@ -24,8 +24,9 @@ python3.8 -m venv venv && venv/bin/pip install -r requirements.txt
 
 1. Navigate to the cloned respository. 
 1. Run the juypter notebooks on the command line.
-1. The final dataset, from the initial santized grant fields to the set of grant fields clustered at various cutoffs as well as assigned to one of the 13 themes described in the [technical report](insert link), will be in `./data/processed`.
+1. The final dataset, from the initial sanitized grant fields to the set of grant fields clustered at various cutoffs as well as assigned to one of the 13 themes described in the [technical report](insert link), will be in `./data/processed`.
 
+You can copy and paste the following,
 ```console
 cd grantform-similarity
 source venv/bin/activate
