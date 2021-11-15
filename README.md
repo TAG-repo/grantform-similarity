@@ -7,7 +7,7 @@ This repository contains code and steps neccesary to reproduce a list of common 
 ## Requirements
 
 1. [Github](https://desktop.github.com/)
-1. Linux or access to Linux (e.g. within a [Docker container](https://ubuntu.com/tutorials/windows-ubuntu-hyperv-containers#1-overview))
+1. Ubuntu or access to Ubuntu (e.g. within a [Docker container](https://ubuntu.com/tutorials/windows-ubuntu-hyperv-containers#1-overview))
 1. [Python3.8](https://www.python.org/download/releases/3.0/) (`sudo apt install python3.8`)
 
 ## Setup
