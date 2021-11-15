@@ -29,5 +29,5 @@ python3.8 -m venv venv && venv/bin/pip install -r requirements.txt
 ```console
 cd grantform-similarity
 source venv/bin/activate
-
+# jupyter nbconvert --execute ./notebookds/4.2-kpr-make-low-and-high-cutoff-for-task-4.ipynb
 ```
