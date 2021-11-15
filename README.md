@@ -8,7 +8,7 @@ This repository contains code and steps neccesary to reproduce a list of common 
 
 1. [Github](https://desktop.github.com/)
 1. Linux or access to Linux (e.g. within a [Docker container](https://ubuntu.com/tutorials/windows-ubuntu-hyperv-containers#1-overview))
-1. [Python3](https://www.python.org/download/releases/3.0/) (with [venv](https://docs.python.org/3/library/venv.html))
+1. [Python3.8](https://www.python.org/download/releases/3.0/) (`sudo apt install python3.8`)
 
 ## Setup
 
@@ -17,5 +17,5 @@ This repository contains code and steps neccesary to reproduce a list of common 
 ```console
 git clone https://github.com/TAG-repo/grantform-similarity.git
 cd grantform-similarity
-python3 -m virtualenv venv && venv/bin/pip install -r requirements.txt 
+python3.8 -m venv venv && venv/bin/pip install -r requirements.txt
 ```
