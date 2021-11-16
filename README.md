@@ -30,5 +30,6 @@ You can copy and paste the following,
 ```console
 cd grantform-similarity
 source venv/bin/activate
-# jupyter nbconvert --execute ./notebookds/1.0-kpr-pairwise-and-cluster.ipynb
+jupyter nbconvert --execute ./notebookds/1.0-kpr-pairwise-and-cluster.ipynb
+jupyter nbconvert --execute ./notebookds/2.0-kpr-.ipynb
 ```
