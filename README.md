@@ -30,5 +30,5 @@ You can copy and paste the following,
 ```console
 cd grantform-similarity
 source venv/bin/activate
-# jupyter nbconvert --execute ./notebookds/4.2-kpr-make-low-and-high-cutoff-for-task-4.ipynb
+# jupyter nbconvert --execute ./notebookds/1.0-kpr-pairwise-and-cluster.ipynb
 ```
