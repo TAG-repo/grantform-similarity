@@ -2,6 +2,8 @@
 
 The [Technology Association of Grantmakers (TAG)](https://www.tagtech.org/) is a 501(c)(3) non-profit membership organization that promotes the power of technology to advance the goals of the philanthropic sector.
 
+A whitepaper describing the data findings are [available here](https://cdn.ymaws.com/www.tagtech.org/resource/resmgr/reports/TAGCommonGrantQuestions.pdf). The [technical report here](https://www.tagtech.org/resource/resmgr/reports/TAG-GrantSimilarity-Analysis.pdf) provides additional detail.
+
 This repository contains code and steps neccesary to reproduce a list of common fields from the #fixtheform analysis. For more information, the initial press release is [here](https://www.tagtech.org/news/586811/TAG-Publishes-List-of-Common-Grant-Fields-from-FixtheForm-Analysis-.htm). You may download the latest dataset release if you are not interested in re-running the data conversion scripts.
 
 ## Requirements
