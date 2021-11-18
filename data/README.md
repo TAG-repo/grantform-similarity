@@ -1,6 +1,9 @@
 ## Data Dictionary
 
 ### task_2_and_3.csv
+
+Scripting that uses Google's USE to calculate pairwise similarity and SciPy's dendogram clustering (`fcluster1`) of pairwise similarity creates this data set. This is created by running `1.0-kpr-pairwise-and-cluster.ipynb`. It depends on `./data/interim` and `./data/processed` files.
+
 | left_context | right_context | value | group | the_cutoff |
 | --- | --- | --- | --- | --- |
 | Context prior the question (`value`) that is particularly informative for understanding the intent and aim of the question. May be null. | Context following the question (`value`) that is particularly informative for understanding the intent and aim of the question. May be null. | The actual question itself. Never null. | The [dendogram](https://en.wikipedia.org/wiki/Dendrogram) group the qustion belongs to. Never null. | The [dendogram](https://en.wikipedia.org/wiki/Dendrogram) threshold used to read off groups * Never null. |
