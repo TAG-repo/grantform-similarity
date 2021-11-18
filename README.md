@@ -32,5 +32,5 @@ cd grantform-similarity
 source venv/bin/activate
 # ... note: this might thirty minutes or so
 jupyter nbconvert --to notebook --inplace --execute ./notebooks/1.0-kpr-pairwise-and-cluster.ipynb
-jupyter nbconvert --execute ./notebooks/2.0-kpr-join-data-triangulation.ipynb
+jupyter nbconvert --to notebook --inplace --execute ./notebooks/2.0-kpr-join-data-triangulation.ipynb
 ```
