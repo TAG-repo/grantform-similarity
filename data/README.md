@@ -2,7 +2,7 @@
 
 ### task_2_and_3.csv
 
-Scripting that uses [Google's USE](https://research.google.com/pubs/archive/46808.pdf) to calculate pairwise similarity and SciPy's dendogram clustering (`fcluster1`) of pairwise similarity creates this data set. This is created by running `1.0-kpr-pairwise-and-cluster.ipynb`. It depends on `./data/interim` and `./data/processed` files.
+Scripting that uses [Google's USE](https://research.google.com/pubs/archive/46808.pdf) to calculate pairwise similarity and SciPy's dendogram clustering (`fcluster1`) of pairwise similarity creates this data set. This is created by running `1.0-kpr-pairwise-and-cluster.ipynb`. It depends on `./data/interim` and `./data/processed` files. May take up to an hour to run.
 
 | left_context | right_context | value | group | the_cutoff |
 | --- | --- | --- | --- | --- |
@@ -15,6 +15,9 @@ size: 3611348 bytes
 CRC hash: `3542748097`
 
 ### task_5_i_ii.csv
+
+Scripting that merges the data trangulation mixed method output creates this file. This joins clustered pairwise similarity to fixed associated themes. The mapping from form field to associated provides a significant reduction of over 3,500 questions to 20 question. This is created by running `2.0-kpr-join-data-triangulation.ipynb`. It depends on a `./data/processed` file. Should run within 5 minutes or less.
+
 left_context,right_context,value,group,the_cutoff,hash,Theme
 | left_context | right_context | value | group | the_cutoff | hash | Theme |
 | --- | --- | --- | --- | --- | --- | --- |
