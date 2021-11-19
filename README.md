@@ -26,7 +26,7 @@ python3.8 -m venv venv && venv/bin/pip install -r requirements.txt
 
 1. Navigate to the cloned respository. 
 1. Run the juypter notebooks on the command line.
-1. The final dataset, from the initial sanitized grant fields to the set of grant fields clustered at various cutoffs as well as assigned to one of the 13 themes described in the [technical report](https://www.tagtech.org/news/586811/TAG-Publishes-List-of-Common-Grant-Fields-from-FixtheForm-Analysis-.htm), will be in `./data/processed`. A README.md in ./data describes the data through two data dictionaries.
+1. The final dataset, from the initial sanitized grant fields to the set of grant fields clustered at various cutoffs as well as assigned to one of the 13 themes described in the [technical report](https://www.tagtech.org/news/586811/TAG-Publishes-List-of-Common-Grant-Fields-from-FixtheForm-Analysis-.htm), will be in `./data/processed`. A README.md in ./data describes the data through several data dictionaries.
 
 To do this you can copy and paste the following,
 ```console
