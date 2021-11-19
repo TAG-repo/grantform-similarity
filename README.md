@@ -36,3 +36,6 @@ source venv/bin/activate
 jupyter nbconvert --to notebook --inplace --execute ./notebooks/1.0-kpr-pairwise-and-cluster.ipynb
 jupyter nbconvert --to notebook --inplace --execute ./notebooks/2.0-kpr-join-data-triangulation.ipynb
 ```
+
+Dataset License:
+The dataset (`task_1.csv`, `task_2_and_3.csv`, `task_5i_ii.csv`, `qualitative_similiar_questions.csv`, `qualitative_non_similiar_questions.csv`, and `for_release_sanitized_content.csv`) is licensed under Creative Commons Attribution 4.0 Licence ([CC-BY](https://creativecommons.org/licenses/by/4.0/)) attributed to Technology Association of Grantmakers ([TAG](https://www.tagtech.org/))
